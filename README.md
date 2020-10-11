@@ -5,19 +5,19 @@ Create an application that can be used to write, save, and delete notes. This ap
 
 - The following HTML routes are used:
 
-  - GET `/notes` returns the `notes.html` file. ![Screen Shot of /notes path.](notes.png)
+  - GET `/notes` returns the `notes.html` file. ![Screen Shot of /notes path.](desktop/notes.png)
 
-* GET `*` returns the `index.html` file. ![Screen Shot of home page.](home.png)
+* GET `*` returns the `index.html` file. ![Screen Shot of home page.](desktop/home.png)
 
 - The notes are stored in a `db.json` file on the backend. The `fs` module is used to read and write to this file.
 
 * The following API royes were created:
 
-  - GET `/api/notes` reads the `db.json` file and return all saved notes as JSON. ![Screen shot of /api/notes (get)](getapi.png)
+  - GET `/api/notes` reads the `db.json` file and return all saved notes as JSON. ![Screen shot of /api/notes (get)](desktop/getapi.png)
 
-  - POST `/api/notes` receives a new note to save on the request.body, add it to the `db.json` file, and then return the new note to the client when the save icon is clicked. Here is the screen shot before saving (with the save icon circled): ![Screen shot before saving](before.png)
+  - POST `/api/notes` receives a new note to save on the request.body, add it to the `db.json` file, and then return the new note to the client when the save icon is clicked. Here is the screen shot before saving (with the save icon circled): ![Screen shot before saving](desktop/before.png)
 
-And this is the screen shot after it's been saved, with the title circled: ![Screen shot after saving](after.png)
+And this is the screen shot after it's been saved, with the title circled: ![Screen shot after saving](desktop/after.png)
 
 - DELETE `/api/notes/:id` receives a query paramter containing the id of a note to delete when the trash can next to the corresponding title is clicked. The note is deleted from the list and from the `db.json` file.
 
