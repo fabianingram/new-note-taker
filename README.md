@@ -1,1 +1,1 @@
-# new-note-taker
+# This aplication is used to write save and delete notes.
