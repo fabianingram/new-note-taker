@@ -26,6 +26,8 @@
   
   *Instructions and examples for use:*
   
+  *- below is an example of how the app should work.
+  
   * Navigate to the [Live Site](https://lit-waters-46614.herokuapp.com).   
   * Click the button to enter the app  
   * In the right column you'll see a "Note Title" and "Note Textarea"  
