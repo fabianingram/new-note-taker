@@ -1,34 +1,54 @@
-# This aplication is used to write save and delete notes.
-Create an application that can be used to write, save, and delete notes. This application will uses express backend and save and retrieve note data from a JSON file.
+# Note-Taker 
+  
+  
+  ## Description 
+  
+  *What, Why, and How:* 
+  
+  This program was made to keep track of notes for  both  personal life or buisness. You now dont need to remember every detail. It was created using Node.js and  Express.js package. 
 
-- The application frontend was created, I built the backend and connected the two.
-
-- The following HTML routes are used:
-
-  - GET `/notes` returns the `notes.html` file. ![Screen Shot of /notes path.](.Desktop/notes.png)
-
-* GET `*` returns the `index.html` file. ![Screen Shot of home page.](.Desktop/home.png)
-
-- The notes are stored in a `db.json` file on the backend. The `fs` module is used to read and write to this file.
-
-* The following API royes were created:
-
-  - GET `/api/notes` reads the `db.json` file and return all saved notes as JSON. ![Screen shot of /api/notes (get)](.Desktop/getapi.png)
-
-  - POST `/api/notes` receives a new note to save on the request.body, add it to the `db.json` file, and then return the new note to the client when the save icon is clicked. Here is the screen shot before saving (with the save icon circled): ![Screen shot before saving](.Desktop/before.png)
-
-And this is the screen shot after it's been saved, with the title circled: ![Screen shot after saving](Desktop/after.png)
-
-- DELETE `/api/notes/:id` receives a query paramter containing the id of a note to delete when the trash can next to the corresponding title is clicked. The note is deleted from the list and from the `db.json` file.
-
-## User Story
-
-AS A user, I want to be able to write and save notes
-
-I WANT to be able to delete notes I've written before
-
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-
-## Business Context
-
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  
+ 
+  
+  ## Installation
+  
+  *Steps required to install project and how to get the development environment running:*
+  
+  To run this program you need to clone the repository to a file on your computer. Run 'npm install" from the terminal in its local directory to install the required packages.
+  
+  ## Usage 
+  
+  *Instructions and examples for use:*
+  
+  * Navigate to the [Live Site](https://lit-waters-46614.herokuapp.com).   
+  * Click the button to enter the app  
+  * In the right column you'll see a "Note Title" and "Note Textarea"  
+  * Assign the Note a Title  
+  * Then give the note a description  
+  * In the top right of the screen is a save icon  
+  * Click it to save the note  
+  * Saved notes will display their title in the left column  
+  * Click on any of the saved notes to view its description or edit it  
+  * Or you can click on the trash can icon on the right of any saved note to delete it
+  
+ 
+  
+  
+  ## License
+  
+  Currently none.
+  
+  ---
+  
+  ## Questions?
+  
+  
+  For any questions, please contact me with the information below:
+ 
+  fabianjammalingram@gmail.com
